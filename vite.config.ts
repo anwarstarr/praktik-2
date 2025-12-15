@@ -10,4 +10,6 @@ export default defineConfig({
       },
     }),
   ],
+  // 👇 TAMBAHKAN BARIS INI 👇
+  base: "praktik-2",
 })
