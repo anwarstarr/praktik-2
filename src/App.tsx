@@ -541,7 +541,7 @@ const Header = () => (
     <header className="hero-section" id="home">
         <div className="hero-content">
             <img src="https://placehold.co/150x150/E8EAE5/00412E?text=IA" alt="Iwan Agi Berutu" className="profile-picture" />
-            <h1 className="name-title">Iwan Berutu</h1>
+            <h1 className="name-title">Anwar</h1>
             <h2 className="profession">Frontend Developer & UI Designer</h2>
             <p className="tagline">Membangun antarmuka web yang modern dan intuitif dengan React & Tailwind.</p>
             <div className="cta-buttons">
@@ -686,7 +686,7 @@ const Contact = () => (
                 <button type="submit" className="cta-button primary">Kirim Pesan</button>
             </form>
             <div className="contact-alternatives">
-                <a href="mailto:iwanagi@email.com" className="social-link"><Mail /> iwanagi@email.com</a>
+                <a href="mailto:iwanagi@email.com" className="social-link"><Mail /> anwar@email.com</a>
                 <a href="#" className="cta-button secondary download-cv-btn">
                     <Download /> Download CV
                 </a>
@@ -728,7 +728,7 @@ function App() {
       <GlobalStyles />
       <div className="portfolio-container">
         <nav className="navbar glass-card">
-          <div className="nav-brand">Iwan A. Berutu</div>
+          <div className="nav-brand"> Anwar</div>
           <div className={`nav-links ${isMenuOpen ? 'active' : ''}`}>
             <a href="#home" onClick={() => setIsMenuOpen(false)}>Home</a>
             <a href="#about" onClick={() => setIsMenuOpen(false)}>Tentang</a>
